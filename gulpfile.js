@@ -5,5 +5,5 @@ gulp.task('sass', function() {
   return gulp.src('dev/scss/styles.scss')
              .pipe(sass())
              .pipe(gulp.dest('dev/css'))
-  //console.log('hey ho !!!');  
+  console.log('transformation de scss en css');  
 });
